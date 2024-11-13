@@ -526,6 +526,7 @@ function doWebAuthnCreate(challengeBytes) {
     ],
 
     authenticatorSelection: {
+      residentKey: "preferred", //residentKey: "required",
       authenticatorAttachment: "cross-platform",
       requireResidentKey: false,
       userVerification: "preferred"
