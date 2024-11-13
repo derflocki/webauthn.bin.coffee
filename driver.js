@@ -506,7 +506,7 @@ function doWebAuthnCreate(challengeBytes) {
     challenge: challengeBytes,
     // Relying Party:
     rp: {
-      id: "derflocki.github.io",
+      id: location.host,
       name: "Acme"
     },
 
